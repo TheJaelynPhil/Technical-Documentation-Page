@@ -1,0 +1,65 @@
+<main id="main-doc">
+  <head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<nav id="navbar">
+ <header>Topic</header>
+
+ <a class="nav-link" href="#Blank_Text_1">Blank Text 1</a>
+ <a class="nav-link" href="#Blank_Text_2">Blank Text 2 </a>
+   <a class="nav-link" href="#Blank_Text_3">Blank Text 3</a>
+   <a class="nav-link" href="#Blank_Text_4">Blank Text 4</a>
+      <a class="nav-link" href="#Blank_Text_5">Blank Text 5</a>
+  </nav>
+
+  <section class="main-section" id="Blank_Text_1">
+    <header><p>Blank Text 1</p></header>
+    <p></p>
+    <code></code>
+    <li></li>
+  </section>
+  <section class="main-section" id="Blank_Text_2">
+    <header><p>Blank Text 2</p></header>
+    <p></p>
+      <code></code>
+         <li></li>
+  </section><section class="main-section" id="Blank_Text_3">
+    <header><p>Blank Text 3</p></header>
+    <p></p>
+      <code></code>
+         <li></li>
+  </section><section class="main-section" id="Blank_Text_4">
+    <header><p>Blank Text 4</p></header>
+    <p></p>
+      <code></code>
+         <li></li>
+  </section><section class="main-section" id="Blank_Text_5">
+    <header><p>Blank Text 5</p></header>
+    <p></p>
+      <code></code>
+         <li></li>
+  </section>
+</main>
+
+#navbar{
+  position: fixed;
+  left: 0;
+  padding: 20px;
+}
+#navbar header{
+  font-size: 1.618em;
+  margin-bottom: 7;
+}
+#navbar a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+}
+#main-doc{
+  margin-left: 200px;
+}
+@media (max-width: 600px) {
+  .main-seciton {
+    font-size: .7em;
+  }
+}
